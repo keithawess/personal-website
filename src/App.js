@@ -5,17 +5,18 @@ import {
   Route,
   Redirect,
 } from "react-router-dom";
+import "./App.css"
 import Projects from "./components/Projects";
 import About from "./components/About";
 
 function App() {
   return (
     <Router>
-      <nav>
-        <NavLink activeClassName="active" className="" to="/projects">
+      <nav className="flex justify-space-evenly width-full bg-blue">
+        <NavLink activeClassName="active" className="flex-half border-white border-right text-center text-plain text-white" to="/projects">
           Projects
         </NavLink>
-        <NavLink activeClassName="active" className="" to="/about">
+        <NavLink activeClassName="active" className="flex-half border-white text-center text-plain text-white" to="/about">
           About
         </NavLink>
       </nav>
