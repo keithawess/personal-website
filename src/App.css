@@ -1,8 +1,11 @@
 
 
 .header-name{
-  line-height: 50px;
   font-size: 40px;
+}
+
+.header-text{
+  line-height: 50px;
 }
 
 .margin-right{
@@ -11,6 +14,10 @@
 
 .flex{
   display: flex;
+}
+
+.flex-grow{
+  flex-grow: 1;
 }
 
 .flex-half{
@@ -35,6 +42,7 @@
 
 .circle{
   border-radius: 50%;
+  overflow: hidden;
 }
 
 .border-rad-5{
@@ -53,8 +61,16 @@
   text-align: center;
 }
 
+.text-end{
+  text-align: end;
+}
+
 .text-plain{
   text-decoration: none;
+}
+
+.text-white{
+  color: white;
 }
 
 .bg-blue{
@@ -69,9 +85,6 @@
   background-color: #0b2b3f;
 }
 
-.text-white{
-  color: white;
-}
 
 .logo{
   width: 50px;
