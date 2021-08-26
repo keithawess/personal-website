@@ -28,6 +28,9 @@ function App() {
           <Route path="/about">
             <About />
           </Route>
+          <Route path="*">
+            <Redirect to="/projects"/>
+          </Route>
         </Switch>
       </main>
 
