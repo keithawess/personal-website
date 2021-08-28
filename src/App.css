@@ -1,4 +1,6 @@
-
+.max-height-200{
+  max-height: 200px;
+}
 
 .header-name{
   font-size: 40px;
@@ -10,6 +12,21 @@
 
 .margin-right{
   margin-right: 5px;
+}
+
+.margin-5v{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.margin-5h{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.pad-10h{
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .flex{
@@ -69,12 +86,20 @@
   text-decoration: none;
 }
 
+.text-large{
+  font-size: large;
+}
+
 .text-white{
   color: white;
 }
 
 .bg-blue{
   background-color: #284B63;
+}
+
+.bg-white{
+  background-color: white;
 }
 
 .bg-black{

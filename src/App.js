@@ -8,15 +8,26 @@ import {
 import "./App.css";
 import Projects from "./components/Projects";
 import About from "./components/About";
-import logo from "./shared/img/profile-pic-crop.jpg"
+import logo from "./shared/img/profile-pic-crop.jpg";
 
 function App() {
   return (
     <Router>
       <header className="flex bg-black text-white">
-        <div className="circle border border-white logo margin-right"><img className="logo" src={logo} /></div>
+        <div className="circle border border-white logo margin-right">
+          <img className="logo" src={logo} />
+        </div>
         <div className="header-name header-text">Keith Wess</div>
-        <div className="header-git header-text margin-right flex-grow text-end">Github: <a className="text-plain text-white" target="_blank" href="https://github.com/keithawess">github.com/keithawess</a></div>
+        <div className="header-git header-text margin-right flex-grow text-end">
+          Github:{" "}
+          <a
+            className="text-plain text-white"
+            target="_blank"
+            href="https://github.com/keithawess"
+          >
+            github.com/keithawess
+          </a>
+        </div>
       </header>
 
       <nav className="flex justify-space-evenly width-full bg-blue">
