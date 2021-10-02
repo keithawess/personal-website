@@ -6,7 +6,7 @@ import {
   Redirect,
 } from "react-router-dom";
 import "./App.css";
-import Projects from "./components/Projects";
+import Projects from "./components/projects/Projects";
 import About from "./components/About";
 import logo from "./shared/img/profile-pic-crop.jpg";
 
@@ -33,14 +33,14 @@ function App() {
       <nav className="flex justify-space-evenly width-full bg-blue">
         <NavLink
           activeClassName="active"
-          className="flex-half border-white border-right text-center text-plain text-white"
+          className="nav-half border-white border-right text-center text-plain text-white"
           to="/projects"
         >
           Projects
         </NavLink>
         <NavLink
           activeClassName="active"
-          className="flex-half border-white text-center text-plain text-white"
+          className="nav-half border-white text-center text-plain text-white"
           to="/about"
         >
           About
