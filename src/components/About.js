@@ -25,7 +25,7 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="bg-white margin-5v">
+      {/* <div className="bg-white margin-5v">
         <div className="text-center text-large">
           <strong>Interests</strong>
         </div>
@@ -52,7 +52,7 @@ function About() {
           <div>
 Who doesn't love video games?          </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

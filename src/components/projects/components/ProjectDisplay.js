@@ -8,7 +8,7 @@ function ProjectDisplay({ img, title, description, link }) {
           <strong>{title}</strong>
         </div>
         <img className="max-height-200" src={img} />
-        <div className="text-center">{description}</div>
+        <div className="text-center text-small">{description}</div>
       </div>
     </a>
   );
