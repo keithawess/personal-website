@@ -2,12 +2,12 @@ import React from "react";
 
 function ProjectDisplay({ img, title, description, link }) {
   return (
-    <a className="text-plain text-black flex-half margin-5" target="_blank" href={link}>
+    <a className="text-plain text-black flex-half margin-5 border border-rad-5 shadow" title="Click to open in new tab." target="_blank" href={link}>
       <div className="flex col align-items-center">
         <div className="text-center">
           <strong>{title}</strong>
         </div>
-        <img className="max-height-200" src={img} />
+        <img className="max-height-200" alt={`${title} thumbnail`} src={img} />
         <div className="text-center text-small">{description}</div>
       </div>
     </a>
