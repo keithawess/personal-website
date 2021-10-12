@@ -156,3 +156,18 @@
   height: 200px;
   width: 150px;
 }
+
+@media (max-width: 500px)
+{
+  .mobile{
+    display: none;
+  }
+}
+
+@media (max-width: 370px)
+{
+  .stack{
+    align-content: center;
+    flex-direction: column;
+  }
+}

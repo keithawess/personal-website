@@ -13,7 +13,7 @@ function Projects() {
         <ProjectDisplay
           img={gameroom}
           title="Gameroom"
-          description="This is a collection of various games I've decided to try to tackle. Uses a couple simple API to make a gaming buddy. Currently features Heads or Tails, Rock Paper Scissors, Tic Tac Toe, and Mastermind. Please allow a few moments while the heroku server spins up."
+          description="This is a collection of various games I've decided to try to tackle. Uses a couple simple API to make a gaming buddy. Currently features Heads or Tails, Rock Paper Scissors, Tic-Tac-Toe, and Mastermind. Please allow a few moments while the heroku server spins up."
           link="https://kwess-gameroom.herokuapp.com/"
         />
         <ProjectDisplay

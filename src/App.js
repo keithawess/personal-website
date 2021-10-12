@@ -13,20 +13,22 @@ import logo from "./shared/img/profile-pic-crop.jpg";
 function App() {
   return (
     <Router>
-      <header className="flex bg-black text-white">
-        <div className="circle border border-white logo margin-right">
-          <img className="logo" src={logo} />
+      <header className="flex bg-black text-white flex-grow">
+        <div className="circle border border-white logo margin-right mobile">
+          <img className="logo mobile" src={logo} />
         </div>
-        <div className="header-name header-text">Keith Wess</div>
-        <div className="header-git header-text margin-right flex-grow text-end">
-          Github:{" "}
-          <a
-            className="text-plain text-white"
-            target="_blank"
-            href="https://github.com/keithawess"
-          >
-            github.com/keithawess
-          </a>
+        <div className="flex justify-space-evenly flex-grow stack flex-wrap">
+          <div className="header-name margin-right header-text">Keith Wess</div>
+          <div className="header-git header-text margin-right flex-grow text-end">
+            <span className="mobile">Github:</span>{" "}
+            <a
+              className="text-plain text-white"
+              target="_blank"
+              href="https://github.com/keithawess"
+            >
+              github.com/keithawess
+            </a>
+          </div>
         </div>
       </header>
 
