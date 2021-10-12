@@ -6,7 +6,7 @@ function About() {
     <div className="bg-black">
       <div className="bg-white margin-5v pad-10h">
         <div className="flex">
-          <div className="margin-5h">
+          <div className="margin-5h mobile">
             <img className="max-height-200 border-rad-5" src={profilePic} />
           </div>
           <div className="flex-grow margin-5h">
@@ -25,34 +25,6 @@ function About() {
           </div>
         </div>
       </div>
-      {/* <div className="bg-white margin-5v">
-        <div className="text-center text-large">
-          <strong>Interests</strong>
-        </div>
-        <div className="flex">
-          <div className="circle border border-white logo margin-right">
-            <img />
-          </div>
-          <div>
-            Here is a music interest that I am interested in. Isn't it interesting?
-          </div>
-        </div>
-        <div className="flex">
-          <div>
-            Here is another thing that I'm interested in. ROCK CLIMBING!
-          </div>
-          <div className="circle border border-white logo margin-right">
-            <img />
-          </div>
-        </div>
-        <div className="flex">
-          <div className="circle border border-white logo margin-right">
-            <img />
-          </div>
-          <div>
-Who doesn't love video games?          </div>
-        </div>
-      </div> */}
     </div>
   );
 }
